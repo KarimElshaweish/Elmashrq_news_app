@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:bind="http://schemas.android.com/apk/res-auto"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/card_Item"
+        bind:cardUseCompatPadding="true"
+       bind:cardElevation="5dp"
+        bind:cardCornerRadius="15sp"
+        bind:cardPreventCornerOverlap="true"
+        bind:cardMaxElevation="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <RelativeLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <LinearLayout
+                android:id="@+id/linear"
+                android:orientation="horizontal"
+                android:layout_alignParentEnd="true"
+               android:layout_marginTop="15sp"
+                android:gravity="center"
+                android:layout_marginEnd="15sp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+                <LinearLayout
+                    android:gravity="center"
+                    android:orientation="vertical"
+                    android:layout_marginEnd="15sp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+                    <com.elyeproj.loaderviewlibrary.LoaderTextView
+                        android:padding="5dp"
+                        android:layout_gravity="center"
+                        android:gravity="center"
+                        android:id="@+id/newsName"
+                        android:fontFamily="@font/jf_flat_medium"
+                        android:textSize="14sp"
+                        android:textColor="@color/colorAccent"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"/>
+                    <TextView
+                        android:visibility="gone"
+                        android:layout_marginTop="5dp"
+                        android:textSize="10sp"
+                        android:textColor="#747474"
+                        android:fontFamily="@font/jf_flat_medium"
+                        android:text="4.500.000 متابع"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"/>
+                </LinearLayout>
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:id="@+id/logo"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"/>
+
+            </LinearLayout>
+
+            <com.elyeproj.loaderviewlibrary.LoaderTextView
+                android:id="@+id/title"
+                android:layout_margin="15sp"
+                android:layout_below="@+id/linear"
+                android:textColor="#303030"
+                android:fontFamily="@font/jf_flat_medium"
+                android:lineSpacingExtra="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+            <androidx.cardview.widget.CardView
+                android:id="@+id/card"
+                android:layout_marginStart="15sp"
+                android:layout_marginEnd="15sp"
+                android:layout_marginBottom="15sp"
+                android:layout_below="@+id/title"
+                android:layout_width="match_parent"
+                android:layout_marginTop="10sp"
+                android:layout_height="wrap_content">
+                <com.elyeproj.loaderviewlibrary.LoaderImageView
+                    android:id="@+id/newsImage"
+                    android:minHeight="200dp"
+                    android:maxHeight="300dp"
+                    android:layout_gravity="center"
+                    android:scaleType="fitXY"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+            </androidx.cardview.widget.CardView>
+
+
+            <ImageView
+                android:visibility="gone"
+                android:id="@+id/share"
+                android:layout_marginBottom="20dp"
+                android:layout_marginTop="@dimen/pdlg_space_1.0x"
+                android:layout_alignParentEnd="true"
+                android:layout_marginEnd="15sp"
+                android:layout_marginStart="15sp"
+              android:layout_below="@+id/card"
+                android:src="@drawable/share"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+            <ImageView
+                android:visibility="gone"
+                android:layout_marginBottom="20dp"
+                android:layout_marginTop="@dimen/pdlg_space_1.0x"
+                android:layout_toStartOf="@+id/share"
+
+                android:layout_marginEnd="15sp"
+                android:layout_marginStart="15sp"
+              android:layout_below="@+id/card"
+                android:src="@drawable/fav"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+        </RelativeLayout>
+
+    </androidx.cardview.widget.CardView>
+</layout>
