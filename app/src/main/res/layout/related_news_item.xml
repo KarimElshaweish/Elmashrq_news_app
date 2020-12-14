@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout>
+    <LinearLayout
+        android:id="@+id/layout"
+        android:layout_margin="5dp"
+        android:layout_gravity="end"
+        android:gravity="end"
+        android:layout_marginStart="15sp"
+        android:layout_marginEnd="15sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        xmlns:android="http://schemas.android.com/apk/res/android">
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent">
+            <com.elyeproj.loaderviewlibrary.LoaderTextView
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="10dp"
+                android:maxWidth="270dp"
+                android:id="@+id/title"
+                android:fontFamily="@font/jf_flat_medium"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+            <com.elyeproj.loaderviewlibrary.LoaderTextView
+
+                android:id="@+id/createdAt"
+                android:layout_marginBottom="15sp"
+                android:fontFamily="@font/jf_flat_medium"
+                android:layout_gravity="bottom"
+                android:gravity="bottom"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"/>
+        </LinearLayout>
+        <com.elyeproj.loaderviewlibrary.LoaderImageView
+            android:id="@+id/image"
+            android:scaleType="fitXY"
+            android:layout_width="100dp"
+            android:layout_height="100dp"/>
+    </LinearLayout>
+</layout>

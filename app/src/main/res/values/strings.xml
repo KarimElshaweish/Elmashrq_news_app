@@ -1,4 +1,59 @@
 <resources>
-    <string name="app_name">DataBinding RecyclerView</string>
-    <string name="space">\u0020</string>
+    <string name="app_name">المشرق</string>
+    <string name="no_account">ليس لدى حساب؟ حساب جديد</string>
+    <string name="new_accunt">حساب جديد</string>
+    <string name="login">تسجيل الدخول</string>
+    <string name="app_email">البريد الإلكترونى</string>
+    <string name="enter_email">اكتب البريد هنا</string>
+    <string name="enter_pass">اكتب كلمة المرور هنا</string>
+    <string name="app_pass">كلمة المرور</string>
+    <string name="app_forget">هل نسيت كلمة المرور؟</string>
+    <string name="app_login">تسجيل الدخول</string>
+    <string name="ltest_news">أخر الأخبار</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="news_agel">عاجل</string>
+    <string name="new_more">الأكثر قراءة</string>
+    <string name="details_news">تفاصيل الخبر</string>
+    <string name="app_userName">الإسم</string>
+    <string name="enter_user">اكتب الإسم هنا</string>
+    <string name="login_error">\"حدثت مشكلة اثناء التسجيل برجاء التأكد من البيانات والمحاولة مرة اخرى\"</string>
+    <string name="error_email_enter">\"من فضلك ادحل البريد الألكتروني وكلمة المرور\"</string>
+    <string name="changePassword">تغير كلمة المرور</string>
+    <string name="please_enter_your_email">من فضلك ادخل البريد الخاص بيك</string>
+    <string name="some_thing_wrong">حدثت مشكلة اثناء التسجيل برجاء المحاولة مرة اخرى</string>
+    <string name="no_internet">فشل الاتصال بالانترنت</string>
+    <string name="error_validation">من فضلك ادخل البيانات كاملة</string>
+    <string name="activation_code">كود التحقيق</string>
+    <string name="please_enter_actication_code">ادخل كود التحقيق</string>
+    <string name="next">التالى</string>
+    <string name="error_code">كود خاطئ</string>
+    <string name="phone_number">رقم الجوال</string>
+    <string name="please_confirm_terms">يرجى الموافقة على الشروط والاحكام</string>
+    <string name="profile">الملف الشخصى</string>
+    <string name="save_change">حفظ التعديلات</string>
+    <string name="new_password">كلمة المرور الجديده</string>
+    <string name="confirm">تأكيد</string>
+    <string name="please_make_sure_2password">من فضلك تأكد ان كلمتين المرور نفسه</string>
+    <string name="done">تم</string>
+    <string name="failed">فشل</string>
+    <string name="liveStream">البث المباشر</string>
+    <string name="all">الكل</string>
+    <string name="news">أخبار</string>
+    <string name="sport">رياضة</string>
+    <string name="collection">منوعات</string>
+    <string name="beNews">كن انت الخبر</string>
+    <string name="start_live_stream">ابدأ بث مباشر</string>
+    <string name="start">ابدأ الأن</string>
+    <string name="upload_vide_or_image">أو يمكنك رفع صورة او فيديو</string>
+    <string name="her">من هنا</string>
+    <string name="upload_image">رفع صورة</string>
+    <string name="upload_video">رفع فيديو</string>
+    <string name="internal_storage">internal Storage</string>
+    <string name="my_resource">مصادرى</string>
+    <string name="guest_account">الدخول كزائر</string>
+    <string name="read_on_origonal_website"><u>اقراء على الموقع الرسمى</u></string>
+
+
 </resources>

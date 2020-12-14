@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout>
+    <RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:gravity="center_vertical"
+        android:id="@+id/rl"
+        android:layout_height="60dp">
+        <LinearLayout
+            android:layout_alignParentEnd="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <LinearLayout
+                android:layout_margin="3dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                <TextView
+                    android:layout_gravity="right"
+                    android:gravity="right"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/title"
+                    android:textSize="15dp"
+                    android:fontFamily="@font/jf_flat_medium"
+                    android:textColor="@color/colorPrimary"
+                    android:text="قناة الرافدين"
+                    android:layout_margin="2dp"/>
+                <TextView
+                    android:gravity="right"
+                    android:layout_gravity="right"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/followers"
+                    android:textSize="10dp"
+                    android:fontFamily="@font/jf_flat_medium"
+                    android:text="قناة الرافدين"
+                    android:layout_margin="2dp"/>
+            </LinearLayout>
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:id="@+id/logo"
+                android:src="@drawable/image_de"/>
+        </LinearLayout>
+        <Button
+            android:padding="3dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/bk_video"
+            android:layout_alignParentStart="true"
+            android:layout_margin="5dp"
+            android:id="@+id/followBtn"
+            android:text="متابعه"
+            android:fontFamily="@font/jf_flat_medium"
+            android:textColor="@color/colorWhite"/>
+    </RelativeLayout>
+</layout>
